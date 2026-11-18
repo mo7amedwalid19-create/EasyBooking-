@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\.Net track\\EasyBooking\\EasyBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|solutionrelative:easybooking.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\interfaces\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\interfaces\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\reositories\\genericreository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\reositories\\genericreository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\interfaces\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\interfaces\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\reositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\reositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\services\\configuration\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\services\\configuration\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|solutionrelative:easybooking.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.webapi\\extensions\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|solutionrelative:easybooking.webapi\\extensions\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|solutionrelative:easybooking.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\dtos\\auth\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\dtos\\auth\\authresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\easybooking.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\easybooking.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.services\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774B57A6-F32E-4E97-A54D-535FB3002E3B}|EasyBooking.Services\\EasyBooking.Services.csproj|solutionrelative:easybooking.services\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\migrations\\20261116194013_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\migrations\\20261116194013_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|solutionrelative:easybooking.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.core\\entities\\providerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|solutionrelative:easybooking.core\\entities\\providerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.webapi\\easybooking.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4A6439C-6DD5-4735-9696-6A010C3C679B}|EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj|solutionrelative:easybooking.webapi\\easybooking.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\configrations\\providerprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\configrations\\providerprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\configrations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\configrations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.core\\enums\\providercategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|solutionrelative:easybooking.core\\enums\\providercategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\configrations\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\configrations\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.infrastructure\\easybooking.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1C6CD45-BF42-431C-B86D-B7A93E2E1BB0}|EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj|solutionrelative:easybooking.infrastructure\\easybooking.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.core\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|solutionrelative:easybooking.core\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.core\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|solutionrelative:easybooking.core\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.core\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|solutionrelative:easybooking.core\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|e:\\.net track\\easybooking\\easybooking\\easybooking.core\\easybooking.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33122E6F-8726-4B83-BD04-8E907D0A6CF7}|EasyBooking.Core\\EasyBooking.Core.csproj|solutionrelative:easybooking.core\\easybooking.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Interfaces\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\Interfaces\\Repository\\IGenericRepository.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Interfaces\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "EasyBooking.Services\\Interfaces\\Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T17:27:09.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Interfaces\\Repository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\Interfaces\\Repository\\IUnitOfWork.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Interfaces\\Repository\\IUnitOfWork.cs",
+              "RelativeToolTip": "EasyBooking.Services\\Interfaces\\Repository\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T17:26:48.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Reositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Reositories\\UnitOfWork.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Reositories\\UnitOfWork.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Reositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T17:23:00.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericReository.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Reositories\\GenericReository.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Reositories\\GenericReository.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Reositories\\GenericReository.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Reositories\\GenericReository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T17:22:30.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Services\\Configuration\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Services\\Configuration\\JwtOptions.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Services\\Configuration\\JwtOptions.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Services\\Configuration\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T17:18:44.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Services\\TokenService.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Services\\TokenService.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T17:08:49.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\Extensions\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "EasyBooking.WebAPI\\Extensions\\IdentitySeeder.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\Extensions\\IdentitySeeder.cs",
+              "RelativeToolTip": "EasyBooking.WebAPI\\Extensions\\IdentitySeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T05:56:30.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EasyBooking.WebAPI\\Program.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\Program.cs",
+              "RelativeToolTip": "EasyBooking.WebAPI\\Program.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:22:18.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Interfaces\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\Interfaces\\Services\\ITokenService.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Interfaces\\Services\\ITokenService.cs",
+              "RelativeToolTip": "EasyBooking.Services\\Interfaces\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T04:39:05.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\DTOs\\Auth\\RegisterRequest.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "EasyBooking.Services\\DTOs\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T04:22:07.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\Interfaces\\Services\\IAuthService.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeToolTip": "EasyBooking.Services\\Interfaces\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T04:39:41.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\Services\\AuthService.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\Services\\AuthService.cs",
+              "RelativeToolTip": "EasyBooking.Services\\Services\\AuthService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T05:07:32.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EasyBooking.WebAPI\\appsettings.json",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\appsettings.json",
+              "RelativeToolTip": "EasyBooking.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-16T19:21:47.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "EasyBooking.Services\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T04:22:36.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthResultDto.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\DTOs\\Auth\\AuthResultDto.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\DTOs\\Auth\\AuthResultDto.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\DTOs\\Auth\\AuthResultDto.cs",
+              "RelativeToolTip": "EasyBooking.Services\\DTOs\\Auth\\AuthResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T04:28:27.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EasyBooking.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EasyBooking.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwBoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T05:46:34.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EasyBooking.Services.csproj",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\EasyBooking.Services.csproj",
+              "RelativeDocumentMoniker": "EasyBooking.Services\\EasyBooking.Services.csproj",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Services\\EasyBooking.Services.csproj",
+              "RelativeToolTip": "EasyBooking.Services\\EasyBooking.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-16T17:47:56.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20261116194013_InitialCreate.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Migrations\\20261116194013_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Migrations\\20261116194013_InitialCreate.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Migrations\\20261116194013_InitialCreate.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Migrations\\20261116194013_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:40:14.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Configrations\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Configrations\\AppUserConfiguration.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Configrations\\AppUserConfiguration.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Configrations\\AppUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:08:39.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:03:01.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Core\\Entities\\AppUser.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Entities\\AppUser.cs",
+              "RelativeToolTip": "EasyBooking.Core\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:29:28.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EasyBooking.WebAPI.csproj",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj",
+              "RelativeDocumentMoniker": "EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj",
+              "RelativeToolTip": "EasyBooking.WebAPI\\EasyBooking.WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-16T17:49:42.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProviderProfile.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Entities\\ProviderProfile.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Core\\Entities\\ProviderProfile.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Entities\\ProviderProfile.cs",
+              "RelativeToolTip": "EasyBooking.Core\\Entities\\ProviderProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:30:10.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProviderProfileConfiguration.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Configrations\\ProviderProfileConfiguration.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Configrations\\ProviderProfileConfiguration.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Configrations\\ProviderProfileConfiguration.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Configrations\\ProviderProfileConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:09:09.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProviderCategory.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Enums\\ProviderCategory.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Core\\Enums\\ProviderCategory.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Enums\\ProviderCategory.cs",
+              "RelativeToolTip": "EasyBooking.Core\\Enums\\ProviderCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:17:19.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookingConfiguration.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Configrations\\BookingConfiguration.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\Configrations\\BookingConfiguration.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\Configrations\\BookingConfiguration.cs",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\Configrations\\BookingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:08:51.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Core\\Entities\\Booking.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Entities\\Booking.cs",
+              "RelativeToolTip": "EasyBooking.Core\\Entities\\Booking.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA/wBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:31:27.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BookingStatus.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Enums\\BookingStatus.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Core\\Enums\\BookingStatus.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Enums\\BookingStatus.cs",
+              "RelativeToolTip": "EasyBooking.Core\\Enums\\BookingStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:19:06.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EasyBooking.Infrastructure.csproj",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj",
+              "RelativeToolTip": "EasyBooking.Infrastructure\\EasyBooking.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-16T15:53:39.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "EasyBooking.Core\\Enums\\UserRole.cs",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\Enums\\UserRole.cs",
+              "RelativeToolTip": "EasyBooking.Core\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:16:34.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EasyBooking.Core.csproj",
+              "DocumentMoniker": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\EasyBooking.Core.csproj",
+              "RelativeDocumentMoniker": "EasyBooking.Core\\EasyBooking.Core.csproj",
+              "ToolTip": "E:\\.Net track\\EasyBooking\\EasyBooking\\EasyBooking.Core\\EasyBooking.Core.csproj",
+              "RelativeToolTip": "EasyBooking.Core\\EasyBooking.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-16T17:51:01.764Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
