@@ -1,13 +1,15 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { UserRound, Store, Users } from "lucide-react";
+import { UserRound, Store } from "lucide-react";
 
 import AuthLayout from "../../components/auth/AuthLayout";
+import { register } from "../../services/authService";
 import "./Auth.css";
 
 function Register() {
   const [role, setRole] = useState("customer");
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -18,6 +20,8 @@ function Register() {
   });
 
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
@@ -26,13 +30,16 @@ function Register() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setError("");
 
+    setError("");
+    setSuccess("");
+
+    // Validate required fields
     if (
-      !formData.name ||
-      !formData.email ||
+      !formData.name.trim() ||
+      !formData.email.trim() ||
       !formData.password ||
       !formData.confirmPassword
     ) {
@@ -40,30 +47,63 @@ function Register() {
       return;
     }
 
-    if (
-      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)
-    ) {
+    // Validate email
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email.trim())) {
       setError("Please enter a valid email.");
       return;
     }
 
+    // Validate password
     if (formData.password.length < 8) {
       setError("Password must be at least 8 characters.");
       return;
     }
 
+    // Confirm password
     if (formData.password !== formData.confirmPassword) {
       setError("Passwords do not match.");
       return;
     }
 
+    // Validate business name
     if (role === "business" && !formData.businessName.trim()) {
       setError("Please enter your business name.");
       return;
     }
 
-    // Backend integration will be added later
-    console.log({ ...formData, role });
+    // Convert frontend role to backend role
+    const apiRole = role === "customer" ? "Customer" : "Provider";
+
+    // Backend RegisterRequest fields
+    const userData = {
+      fullName: formData.name.trim(),
+      email: formData.email.trim(),
+      password: formData.password,
+      role: apiRole,
+    };
+
+    try {
+      setLoading(true);
+
+      const result = await register(userData);
+
+      setSuccess(result.message || "Account created successfully!");
+
+      // Clear form after successful registration
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        businessName: "",
+        password: "",
+        confirmPassword: "",
+      });
+
+    } catch (err) {
+      setError(err.message || "Registration failed. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -81,8 +121,16 @@ function Register() {
 
           <button
             type="button"
-            className={role === "customer" ? "role-card selected" : "role-card"}
-            onClick={() => setRole("customer")}
+            className={
+              role === "customer"
+                ? "role-card selected"
+                : "role-card"
+            }
+            onClick={() => {
+              setRole("customer");
+              setError("");
+              setSuccess("");
+            }}
           >
             <UserRound size={21} />
             <span>Customer</span>
@@ -90,20 +138,19 @@ function Register() {
 
           <button
             type="button"
-            className={role === "business" ? "role-card selected" : "role-card"}
-            onClick={() => setRole("business")}
+            className={
+              role === "business"
+                ? "role-card selected"
+                : "role-card"
+            }
+            onClick={() => {
+              setRole("business");
+              setError("");
+              setSuccess("");
+            }}
           >
             <Store size={21} />
             <span>Business</span>
-          </button>
-
-          <button
-            type="button"
-            className={role === "staff" ? "role-card selected" : "role-card"}
-            onClick={() => setRole("staff")}
-          >
-            <Users size={21} />
-            <span>Staff</span>
           </button>
 
         </div>
@@ -123,6 +170,7 @@ function Register() {
         <div className="form-group">
           <label>Full Name</label>
           <input
+            type="text"
             name="name"
             placeholder="Enter your full name"
             value={formData.name}
@@ -174,10 +222,26 @@ function Register() {
           />
         </div>
 
-        {error && <p className="auth-error">{error}</p>}
+        {error && (
+          <p className="auth-error">
+            {error}
+          </p>
+        )}
 
-        <button type="submit" className="auth-submit">
-          Create Account
+        {success && (
+          <p className="auth-success">
+            {success}
+            <br />
+            <Link to="/login">Go to Login</Link>
+          </p>
+        )}
+
+        <button
+          type="submit"
+          className="auth-submit"
+          disabled={loading}
+        >
+          {loading ? "Creating Account..." : "Create Account"}
         </button>
 
         <p className="auth-switch">

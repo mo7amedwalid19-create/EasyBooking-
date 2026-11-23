@@ -1,9 +1,10 @@
 
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react";
 
 import AuthLayout from "../../components/auth/AuthLayout";
+import { login } from "../../services/authService";
 import "./Auth.css";
 
 function Login() {
@@ -11,23 +12,53 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
     setError("");
 
-    if (!email || !password) {
+    if (!email.trim() || !password) {
       setError("Please fill in all fields.");
       return;
     }
 
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      setError("Please enter a valid email.");
-      return;
-    }
+    try {
+      setLoading(true);
 
-    // Backend integration will be added later
-    console.log({ email, password });
+      const result = await login({
+        email: email.trim(),
+        password,
+      });
+
+      const role = result.data?.role;
+
+      // Redirect according to user role
+      switch (role) {
+        case "Customer":
+          navigate("/customer/dashboard", { replace: true });
+          break;
+
+        case "Provider":
+          navigate("/provider/dashboard", { replace: true });
+          break;
+
+        case "Admin":
+          navigate("/admin/dashboard", { replace: true });
+          break;
+
+        default:
+          setError("Your account role is not recognized.");
+      }
+
+    } catch (err) {
+      setError(err.message || "Login failed. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -44,6 +75,7 @@ function Login() {
             placeholder="name@example.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
         </div>
 
@@ -61,11 +93,13 @@ function Login() {
               placeholder="Enter your password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              required
             />
 
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
+              aria-label={showPassword ? "Hide password" : "Show password"}
             >
               {showPassword ? <EyeOff size={19} /> : <Eye size={19} />}
             </button>
@@ -74,8 +108,12 @@ function Login() {
 
         {error && <p className="auth-error">{error}</p>}
 
-        <button type="submit" className="auth-submit">
-          Sign In
+        <button
+          type="submit"
+          className="auth-submit"
+          disabled={loading}
+        >
+          {loading ? "Signing In..." : "Sign In"}
         </button>
 
         <p className="auth-switch">
