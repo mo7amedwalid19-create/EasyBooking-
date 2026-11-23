@@ -1,0 +1,138 @@
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.form-group label,
+.section-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #393348;
+}
+
+.form-group input {
+  width: 100%;
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid #e5e1ed;
+  border-radius: 9px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #7651d5;
+  box-shadow: 0 0 0 3px #7651d51a;
+}
+
+.password-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-label a,
+.auth-switch a {
+  color: #7651d5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.password-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-input input {
+  padding-right: 45px;
+}
+
+.password-input button {
+  position: absolute;
+  right: 12px;
+  border: none;
+  background: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.auth-submit {
+  height: 49px;
+  background: #7651d5;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-submit:hover {
+  background: #5d3bb7;
+  transform: translateY(-2px);
+}
+
+.auth-switch {
+  text-align: center;
+  font-size: 14px;
+  color: #888398;
+}
+
+.auth-error {
+  color: #dc3545;
+  font-size: 13px;
+  margin: 0;
+}
+
+.role-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px;
+}
+
+.role-card {
+  min-height: 75px;
+  border: 1px solid #e5e1ed;
+  border-radius: 10px;
+  background: white;
+  color: #777184;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.role-card.selected {
+  border: 1.5px solid #7651d5;
+  background: #f5f1ff;
+  color: #7651d5;
+}
+
+.role-card:hover {
+  border-color: #7651d5;
+}
+
+@media (max-width: 400px) {
+  .role-options {
+    gap: 5px;
+  }
+
+  .role-card {
+    font-size: 11px;
+  }
+}
