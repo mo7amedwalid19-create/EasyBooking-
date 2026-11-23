@@ -1,7 +1,8 @@
-﻿using System.Reflection;
-using EasyBooking.Core.Entities;
+﻿using EasyBooking.Core.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace EasyBooking.Infrastructure.Data;
 
@@ -13,7 +14,7 @@ public class AppDbContext : IdentityDbContext<AppUser>
 
     public DbSet<ProviderProfile> ProviderProfiles { get; set; }
     public DbSet<Booking> Bookings { get; set; }
-
+  public  DbSet<ServiceProviderProfile> ServiceProviderProfiles {  get; set; }
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);

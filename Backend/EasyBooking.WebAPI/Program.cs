@@ -1,5 +1,5 @@
 ﻿using EasyBooking.Core.Entities;
- 
+using EasyBooking.Core.Enums;
 using EasyBooking.Infrastructure.Data;
 using EasyBooking.Infrastructure.Repositories;
 using EasyBooking.Infrastructure.Services;
@@ -87,13 +87,20 @@ public class Program
             };
         });
 
-        builder.Services.AddAuthorization();
+        builder.Services.AddAuthorization(options =>
+        {
+            options.AddPolicy("AdminOnly", policy => policy.RequireRole(nameof(UserRole.SuperAdmin)));
+            options.AddPolicy("ProviderOnly", policy => policy.RequireRole(nameof(UserRole.Provider)));
+            options.AddPolicy("CustomerOnly", policy => policy.RequireRole(nameof(UserRole.Customer)));
+        });
 
         // 5. Register Repositories (Task 1.1) & Services (Task 1.2)
         builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
         builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
         builder.Services.AddScoped<ITokenService, TokenService>();
         builder.Services.AddScoped<IAuthService, AuthService>();
+        builder.Services.AddScoped<IProviderService, ProviderService>();
+
 
         // Controllers registration + JSON options to ignore nulls if needed
         builder.Services.AddControllers()

@@ -1,4 +1,5 @@
 ﻿using EasyBooking.Core.Entities;
+using EasyBooking.Core.Enums;
 using EasyBooking.Services.DTOs.Auth;
 using EasyBooking.Services.Interfaces.Services;
 using Microsoft.AspNetCore.Identity;
@@ -75,6 +76,14 @@ public class AuthService : IAuthService
                 StatusCode = 500,
                 Success = false,
                 Message = "Could not assign user role."
+            };
+        }
+        if ( request.Role != nameof(UserRole.Customer) && request.Role != nameof(UserRole.Provider))
+        {
+            return new AuthResultDto
+            {
+                Success = false,
+                Message = "Invalid role selected. Allowed roles: Customer, Provider."
             };
         }
 
